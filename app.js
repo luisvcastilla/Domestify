@@ -22,13 +22,13 @@ angular.module('App', ['ngRoute','ngAnimate'])
 			templateUrl : 'pages/contact.html',
 			controller  : 'comunicateController'		
 		})				
-		.when('/informacion', {
-			templateUrl : 'pages/informacion.html',
+		.when('/info', {
+			templateUrl : 'pages/info.html',
 			controller  : 'informacionController'
 		})				
-		.when('/nosotros', {
-			templateUrl : 'pages/nosotros.html',
-			// controller  : 'nosotrosController'
+		.when('/about', {
+			templateUrl : 'pages/about.html',
+			controller  : 'nosotrosController'
 		})									
 		.otherwise({ redirectTo: "/" });			
 })
@@ -46,7 +46,10 @@ angular.module('App', ['ngRoute','ngAnimate'])
 	$scope.pageClass = 'page-all';	
 	
 })
+.controller('nosotrosController', function($scope, $routeParams) {									
+	$scope.pageClass = 'nosotros';	
+	
+})
 .controller('userController', function($scope, $routeParams) {									
 	$scope.pageClass = 'page-all';	
-	console.log($routeParams);
 })
