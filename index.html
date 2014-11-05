@@ -25,36 +25,39 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Ver más</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="img/logo-01.png" alt="" class="img-responsive" /></a>
+    <div id="wrap">       
+      <div class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Ver más</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo-01.png" alt="" class="img-responsive" /></a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">            
+                <li><a href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home </a></li>            
+                <li><a href="#/services"><i class=""></i> Services</a></li>            
+                <li><a href="#/info"><i class=""></i> Information </a></li>            
+                <li><a href="#/about"><i class=""></i> About us </a></li>            
+                <li><a href="#/contact"><i class=""></i> Contact us</a></li>            
+                <li><a href="#/login"><i class="fa fa-user"></i> Login </a></li>            
+            </ul>
+          </div><!--/.navbar-collapse -->
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">            
-              <li><a href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home </a></li>            
-              <li><a href="#/contact"><i class=""></i> Contact </a></li>            
-              <li><a href="#/info"><i class=""></i> Information </a></li>            
-              <li><a href="#/about"><i class=""></i> About us </a></li>            
-              <li><a href="#/login"><i class="fa fa-user"></i> Login </a></li>            
-          </ul>
-        </div><!--/.navbar-collapse -->
       </div>
-    </div>
 
-    <div id="main">       
-      <div class="page {{ pageClass }}" ng-view></div>    
+      
+        <div class="page {{ pageClass }}" ng-view></div>    
     </div>  
-
-      <footer>
+    <div id="footer">
+      <div class="container">
         <p>&copy; Domestify 2014</p>
-      </footer>
+      </div>
+    </div>      
       <!-- // <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
       <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
       <script src="js/vendor/bootstrap.min.js"></script>

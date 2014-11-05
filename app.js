@@ -61,12 +61,22 @@ angular.module('App', ['ngRoute','ngAnimate'])
 			availability:'2 hours'
 		},
 		{name:'Homeyfi',
-			price:'200',
+			price:'150',
 			photo:'http://www.everydaytaskcompany.com/wp-content/uploads/2013/02/bigstock-Successful-Cleaning-People-Tea-10726325.jpg',
 			availability:'5 hours'
 		},
 		{name:'Clean fast, clean now',
-			price:'300.1',
+			price:'230',
+			photo:'http://www.bloomingtonrenter.com/wp-content/uploads/2013/07/Cleaning.jpg',
+			availability:'2 days'
+		},
+		{name:'Monterrey cleaning services',
+			price:'300',
+			photo:'http://www.bloomingtonrenter.com/wp-content/uploads/2013/07/Cleaning.jpg',
+			availability:'2 days'
+		},
+		{name:'Clean fast, clean now',
+			price:'320',
 			photo:'http://www.bloomingtonrenter.com/wp-content/uploads/2013/07/Cleaning.jpg',
 			availability:'2 days'
 		}

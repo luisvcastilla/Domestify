@@ -3,12 +3,17 @@
 
 
 
+html,body{height:100%;}
 html,body,h1,h2,h3,h4,h5,h6,p,div,section{
 	font-family:Open Sans;
 	font-weight: lighter;
 	-webkit-font-smoothing:antialised;
 }
-
+#wrap{min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto 0;}
+#footer{height:60px;}
 .fa{cursor:pointer;}
 .fa-star{color:#ffe242;}
 .fa-spotify{color:#1b75bb;}
@@ -17,6 +22,7 @@ html,body,h1,h2,h3,h4,h5,h6,p,div,section{
 .fa-facebook{color:#1b75bb;}
 .fa-twitter{color:#4ad2ff;}
 .fa-globe{color:green;}
+.fa.fa-mega{font-size:300px !important;}
 
 .navbar{margin-bottom:0;}
 .navbar-brand{max-width:300px;height: auto;padding:0;}
@@ -24,7 +30,7 @@ html,body,h1,h2,h3,h4,h5,h6,p,div,section{
 .division{padding:40px 20px;color:#fff;}
 .division h2{margin:0;}
 .division.blue{background: #1b75bb;}
-footer{padding:20px;}
+
 
 
 #services row{background-color:#FAFDFF;border-bottom:1px solid #EAF2F8;}
