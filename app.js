@@ -43,8 +43,7 @@ angular.module('App', ['ngRoute','ngAnimate'])
 	$scope.pageClass = 'comunicate';		
 })
 .controller('informacionController', function($scope, $routeParams) {									
-	$scope.pageClass = 'page-all';	
-	
+	$scope.pageClass = 'page-all';		
 })
 .controller('userController', function($scope, $routeParams) {									
 	$scope.pageClass = 'page-all';	
