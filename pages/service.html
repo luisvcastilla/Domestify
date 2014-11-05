@@ -1,0 +1,42 @@
+<div class="container-fluid">
+    <div class="container container-pad" id="property-listings">
+		<div class="row" ng-repeat="service in services">
+			<div class="col-lg-8 col-lg-offset-2">
+				<div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+	                <div class="media">
+	                    <a class="pull-left" href="#" target="_parent">
+	                    <img alt="image" class="img-responsive" ng-src="{{service.photo}}"></a>
+
+	                    <div class="clearfix visible-sm"></div>
+
+	                    <div class="media-body fnt-smaller">
+	                        <a href="#" target="_parent"></a>
+
+	                        <h4 class="media-heading">
+	                          <a href="#" target="_parent">Desde {{service.price | currency}} <small class="pull-right">609 W Gravers Ln</small></a></h4>
+
+
+	                        <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+	                            <li class="text-success"><b>Available in {{service.availability}}</b></li>
+	                            
+	                        </ul>
+
+	                        <p class="hidden-xs">Situated between fairmount
+	                        park and the prestigious philadelphia cricket
+	                        club, this beautiful 2+ acre property is truly
+	                        ...</p><span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox & Roach-Chestnut Hill
+	                        Evergreen</span>
+	                    </div>
+	                </div>
+	            </div><!-- End Listing-->
+			</div>
+			<div class="col-lg-2">
+				<p><i class="fa fa-phone"></i></p>
+				<p><i class="fa fa-envelope"></i></p>
+				<p><i class="fa fa-facebook"></i></p>
+				<p><i class="fa fa-twitter"></i></p>
+				<p><i class="fa fa-globe"></i></p>				
+			</div>
+		</div>
+	</div>
+</div>
